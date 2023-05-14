@@ -1,0 +1,61 @@
+.single-box {
+	background-color: #839695;
+	padding: 64px 121px 1px;
+	@media (width <= 1024px) {
+		padding: 30px 60px 1px 60px;
+	}
+	@media (width <= 700px) {
+		padding: 10px 15px 1px 15px;
+	}
+	.title {
+		font-size: 2.25rem;
+		text-align: center;
+		margin: 0 0 10px 0;
+		@media (width < 1024px) {
+			font-size: 1.8rem;
+		}
+		@media (width <= 700px) {
+			font-size: 1.4rem;
+		}
+		@media (width <= 400px) {
+			font-size: 1rem;
+		}
+	}
+	.img {
+		margin: 0 0 30px 0;
+		img {
+			max-width: 100%;
+			width: 100%;
+			height: 10%;
+			object-fit: cover;
+		}
+	}
+	.description {
+		font-size: 1rem;
+		line-height: 1.2;
+		margin: 0 0 20px 0;
+		@media (width <= 700px) {
+			font-size: 0.8rem;
+		}
+	}
+	.comment {
+		text-align: left;
+		line-height: 1.3;
+		.comment-bg {
+			background-color: #fff;
+			padding: 20px 18px;
+			margin: 0 0 100px;
+			@media (width < 1024px) {
+				margin: 0 0 50px;
+			}
+			@media (width < 700px) {
+				margin: 0 0 25px;
+			}
+		}
+		h2 {
+			display: block;
+			margin: 0 0 30px;
+			font-weight: 500;
+		}
+	}
+}
